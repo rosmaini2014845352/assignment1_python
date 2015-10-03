@@ -1,0 +1,5 @@
+#shows reading from a text file
+print ("reading from entire file")
+text_file=open("D:\\assgmnt1_pythonFile\\rosmaini.txt","r")
+print (text_file.read())
+text_file.close()
